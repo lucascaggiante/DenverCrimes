@@ -70,7 +70,8 @@ public class Model {
 		
 		this.grafo3 = this.grafo2.getPath(sorgente, destinazione);
 		List<String> lista = this.grafo3.getVertexList();
-	//	System.out.println(lista.size());
+		System.out.println(lista.size());
+		System.out.println(lista.size());
 		
 		this.percorsoMigliore = new ArrayList<>();
 		List<String> parziale = new ArrayList<>();
